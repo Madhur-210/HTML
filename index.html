@@ -1,159 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en" dir="ltr">
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Basics</title>
-</head>
+    <title> Website Layout | CodingLab</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+   </head>
 <body>
-    <!-- Heading Tag -->
-    <h1>
-        Heading 1
-    </h1>
-    <h2>
-        Heading 1
-    </h2>
-    <h3>
-        Heading 1
-    </h3>
-    <h4>
-        Heading 1
-    </h4>
-    <h5>
-        Heading 1
-    </h5>
-    <!-- Paragraph Tag -->
-    <p>This is a paragraph</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel nihil sed harum consequuntur tempora delectus repudiandae, quae quia ratione totam hic distinctio illum cum atque veritatis pariatur, maxime ipsum dolores.
-    </p>
-
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit beatae earum similique explicabo nobis facere, neque error sed quas enim!</p>
-
-    <!-- Anchor Tag -->
-    <a href="https://thewebdev.tech"> Learn web Development</a>
-    <a href="https://myhashcode.com" target="_blank"> Old Blog Site</a>
-
-    <!-- List -->
-    <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-        <li>Item 4</li>
-    </ul>
-    <ol>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-        <li>Item 4</li>
-    </ol>
-
-    <!-- Table Tag -->
-    <table>
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Age</th>
-                <th>Email</th>
-            </tr>
-        </thead>
-       <tbody>
-           <tr>
-               <td>Nabendu</td>
-               <td>38</td>
-               <td>nabendu@gmail.com</td>
-           </tr>
-           <tr>
-            <td>Madhur</td>
-            <td>21</td>
-            <td>Madhur@gmail.com</td>
-        </tr>
-        <tr>
-            <td>DIlip</td>
-            <td>2</td>
-            <td>Dilip@gmail.com</td>
-        </tr>
-       </tbody>
-    </table>
-    <br>
-    <hr>
-
-    <!-- Form Tag -->
-
-    <!-- <label>Name</label>
-    <input type="text" name="name">
-    <label>Age</label>
-    <input type="number" name="age"> -->
-    
-    <!-- label & input are inline elements so they spoil the presentation of form.
-    So we use div as it is block level element -->
-    <form action="/action.php">
-    <div>
-        <label>Name</label>
-        <input type="text" name="name">
+  <nav>
+    <div class="menu">
+      <div class="logo">
+        <a href="#">PhotoLab</a>
+      </div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Feedback</a></li>
+      </ul>
     </div>
-    <br>
-
-    <div> 
-        <label>Age</label>
-    <input type="number" name="age">
-</div>
-<br>
-
-<div>
-    <label>Message</label>
-    <textarea name="message"></textarea>
-</div>
-<br>
-<div>
-    <label>Favourite Color</label>
-    <select >
-        <option value="red">Red</option>
-        <option value="green">green</option>
-        <option value="yellow">Yellow</option>
-        <option value="blue">Blue</option>
-    </select>
-</div>
-<br>
-<div>
-    <label></label>
-</div>
-
-<div>
-    <label>What do youn own?</label><br>
-    <input type="checkbox" name="V1" value="bike"><label>Bike</label><br>
-    <input type="checkbox" name="V2" value="car"><label>Car</label><br>
-    <input type="checkbox" name="V3" value="boat"><label>Boat</label><br>   
-</div>
-<br>
-<div>
-    <label>Gender</label><br>
-    <input type="radio" name="gender" value="male"><label>Male</label><br>
-    <input type="radio" name="gender" value="female"><label>FeMale</label><br>
-    <input type="radio" name="gender" value="other"><label>Other</label><br>
-</div>
-<br>
-<div>
-    <input type="submit" value="submit">
-</div>
-</form>
-<br>
-<hr>
-    <!-- HTML Basics for LateComers -->
-    <!-- button -->
-    <button>Click Here</button>
-    <br>
-    <hr>
-    <!-- Image Tag -->
-    <img src="IMG_20191120_163738.jpg" alt="My Pic" width="200" height="200">
-    <br>
-    <hr>
-    
-    <!-- Quotation -->
-    <blockquote cite="http://en.wikipedia.com/wwf.html">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum dolores, in fuga et eligendi animi suscipit provident? Reiciendis eveniet quod officia commodi totam <abbr title="More Lorem">harum</abbr> praesentium nulla temporibus sit, maxime sint!
-    </blockquote>
-
-    <abbr title="Click Here">Click Me</abbr>
+  </nav>
+<div class="img"></div>
 </body>
+
 </html>
