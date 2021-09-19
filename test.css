@@ -9,6 +9,9 @@ body {
 .m {
   margin: 1em;
 }
+.pd {
+  padding: 1em;
+}
 .mp {
   margin: 1em;
   padding: 1em;
@@ -25,7 +28,7 @@ body {
 .size {
   height: 600px;
   width: 30%;
-  background-color: yellow;
+  background-color: orange;
 }
 .left {
   flex-direction: column;
@@ -43,37 +46,40 @@ body {
 .left-inner-down {
   height: 50%;
   width: 100%;
-  background-color: cyan;
+  justify-content: space-between;
+}
+.middle {
+  flex-direction: column;
 }
 .middle div {
-  height: 100%;
-  width: 50%;
+  height: 50%;
+  width: 100%;
   background-color: cyan;
 }
 .right {
   flex-direction: column;
 }
-.img {
+
+.right-small-box {
+  width: 50%;
+  height: 50%;
+  background-color: cyan;
+}
+img {
   height: 100%;
   width: 100%;
+  object-fit: cover;
 }
-.right-up {
-  width: 100%;
-  height: 50%;
+.right-small-box div {
+  height: 100%;
 }
-.right-down {
-  height: 50%;
-  width: 100%;
-}
-.img img {
-  width: 100%;
-  width: 100%;
-}
+
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
   }
   .size {
     width: 80%;
+    background-color: yellow;
   }
 }
